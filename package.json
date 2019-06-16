@@ -1,0 +1,34 @@
+{
+  "name": "eslint-plugin-spellingbee",
+  "version": "2.0.2",
+  "description": "ESLint plugin to prevent common typos.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint length"
+  ],
+  "repository": "eschaefer/eslint-plugin-spellingbee",
+  "author": "Eric Schaefer <omg@eric-schaefer.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "release": "np",
+    "prepare": "npm t",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^6.1.4",
+    "np": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
