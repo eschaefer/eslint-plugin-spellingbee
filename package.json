@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-spellingbee",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESLint plugin to prevent common typos.",
   "keywords": [
     "eslint",
